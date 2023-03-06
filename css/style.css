@@ -22,11 +22,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
-    font-weight: 900;
 }
 
 #numeri {
     width: 1000px;
     display: flex;
+    transition: opacity 3s;
+    font-size: 40px;
+    font-weight: 900;
 }
